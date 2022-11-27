@@ -1,0 +1,200 @@
+{% extends 'base.html' %}
+  
+{% block title %}Login{% endblock %}
+  
+{% block content %}
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <style type="text/css">
+        @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap');
+
+body {
+    background-color: whitesmoke;
+   /* bgcolor: #D3D3D3 ;*/
+    /*background: #009578;*/
+    margin: 15px;
+    margin-top: 50px;
+}
+
+.login-form,
+.login-form * {
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro';
+}
+
+.login-form {
+    max-width: 350px;
+    margin: 0 auto;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+
+.login-form__logo-container {
+    padding: 30px;
+    background: #2E8B57;
+   /* background: rgba(0, 0, 0, 0.25);*/
+}
+
+.login-form__logo {
+    display: block;
+    max-width: 125px;
+    margin: 0 auto;
+}
+
+.login-form__content {
+    padding: 30px;
+    background-color: white;
+    /*background: #eeeeee;*/
+}
+
+.login-form__header {
+    margin-bottom: 15px;
+    text-align: center;
+    color: #333333;
+}
+
+.login-form__input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #dddddd;
+    background: #ffffff;
+    outline: none;
+    transition: border-color 0.5s;
+}
+
+.login-form__input:focus {
+    border-color: #009578;
+}
+
+.login-form__input::placeholder {
+    color: #aaaaaa;
+}
+
+.login-form__button {
+    padding: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    background: #009578;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary, .btn-success {
+    background-color: #2E8B57 !important;
+}
+
+.login-form__button:active {
+    background: #008067;
+}
+
+.login-form__links {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.login-form__link {
+    font-size: 0.9em;
+    color: #008067;
+    text-decoration: none;
+}
+      </style>
+        <title>Login Form</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/login.css">
+    </head>
+
+<!--<div align="center" class="centered">
+  <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <div align="right"><button type="submit" class="btn btn-primary">Login</button>
+    <a href="/signup" class="btn btn-success">Signup</a></div>
+  </form>
+</div>-->
+
+    <body>
+        <form class="login-form" action="./" method="POST">
+            <div class="login-form__logo-container">
+                <h4 style="color: white;">LOGIN</h4>
+            </div>
+            <div class="login-form__content">
+                {% csrf_token %}
+                {{ form.as_p }}
+            <div align="right"><button type="submit" class="btn btn-primary">Login</button>
+                <a href="/signup" class="btn btn-success">Signup</a></div>
+            </div>
+            <!--<div class="login-form__links">-->
+            <a class="login-form__link" href="./">Forgot your password?</a>
+            <!--<button class="login-form__button" type="submit">Login</button>
+            <br>
+            <br>
+            <button class="login-form__button" type="submit">
+            Signup</button>-->
+            <br>
+            <br>
+        </form>
+    </body>
+</html>
+
+<!--<body>
+        <form class="login-form" action="./" method="POST">
+            <div class="login-form__logo-container">
+                <h4 style="color: white;">LOGIN</h4>
+            </div>
+            <div class="login-form__content">
+                <input class="login-form__input" type="text" name="dc_username" placeholder="Username">
+                <input class="login-form__input" type="password" name="dc_username" placeholder="Password">
+                <button class="login-form__button" type="submit">Login</button>
+                <div class="login-form__links">
+                    <a class="login-form__link" href="./">Forgot your password?</a>
+                </div>
+            </div>
+        </form>
+    </body>
+</html>
+-->
+
+
+<!--Original working one starts from here-->
+<!--<head><style>  
+.centered {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  
+  font-size: 20px;
+  background-color: whitesmoke;
+  border: black 2px solid;
+  padding: 10px;
+  z-index: 100;
+}-->
+
+<!--</style></head>
+<br>
+<br>
+<br>
+  <h2 style="text-align: center;">LOGIN</h2> {{ msg }}
+  <div align="center" class="centered">
+  <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <div align="right"><button type="submit" class="btn btn-primary">Login</button>
+    <a href="/signup" class="btn btn-success">Signup</a></div>
+  </form>
+</div>-->
+{% endblock %}

@@ -1,0 +1,36 @@
+{% extends 'store/main.html' %}
+{% block content %}
+<head><style>
+body {
+    background-color: whitesmoke;
+   /* bgcolor: #D3D3D3 ;*/
+    /*background: #009578;*/
+}
+.login-form {
+    max-width: 350px;
+    margin: 0 auto;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+</style></head>
+<body>
+	<center>
+		<div class="col-lg-6">
+		<div class="box-element">
+<form>
+<h2>Your order has been received</h2>
+<br>
+<h4>Thank you for your purchase!</h4>
+<br>
+<h6 style="color:grey;">You will receive an order confirmation email with details of your order. </h6>
+<br>
+<a  class="btn btn-outline-danger" href="{% url 'store' %}">&#x2190; Continue Shopping</a>
+<br>
+<br>
+</form>
+</div>
+</div>
+</center>
+</body>
+{% endblock %}

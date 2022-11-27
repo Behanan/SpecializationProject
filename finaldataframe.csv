@@ -1,0 +1,71 @@
+,antecedents,consequents,confidence
+0,Bag of Organic Bananas,Organic Baby Spinach,0.1390136393878908
+1,Organic Baby Spinach,Bag of Organic Bananas,0.2185681595292579
+2,Bag of Organic Bananas,Organic Blueberries,0.0642049234863606
+3,Organic Blueberries,Bag of Organic Bananas,0.2205714285714285
+4,Bag of Organic Bananas,Organic Cucumber,0.0679890219560878
+5,Organic Cucumber,Bag of Organic Bananas,0.2694906873248722
+6,Bag of Organic Bananas,Organic Hass Avocado,0.1574767132401862
+7,Organic Hass Avocado,Bag of Organic Bananas,0.3067390247853556
+8,Bag of Organic Bananas,Organic Large Extra Fancy Fuji Apple,0.062624750499002
+9,Organic Large Extra Fancy Fuji Apple,Bag of Organic Bananas,0.3260445983979216
+10,Bag of Organic Bananas,Organic Lemon,0.0648286759813705
+11,Organic Lemon,Bag of Organic Bananas,0.2836092414044023
+12,Bag of Organic Bananas,Organic Raspberries,0.1113190286094477
+13,Organic Raspberries,Bag of Organic Bananas,0.3105568445475637
+14,Bag of Organic Bananas,Organic Strawberries,0.1782268795741849
+15,Organic Strawberries,Bag of Organic Bananas,0.2557126663086927
+16,Bag of Organic Bananas,Organic Whole Milk,0.071648369926813
+17,Organic Whole Milk,Bag of Organic Bananas,0.2132161861155797
+18,Organic Yellow Onion,Bag of Organic Bananas,0.2231127951034683
+19,Bag of Organic Bananas,Organic Yellow Onion,0.0636643379906852
+20,Bag of Organic Bananas,Organic Zucchini,0.0631653359946773
+21,Organic Zucchini,Bag of Organic Bananas,0.2204964436057483
+22,Cucumber Kirby,Banana,0.3218997361477572
+23,Banana,Cucumber Kirby,0.0536064354762387
+24,Honeycrisp Apple,Banana,0.3504401573328338
+25,Banana,Honeycrisp Apple,0.0632393699722841
+26,Large Lemon,Banana,0.267515348501264
+27,Banana,Large Lemon,0.1001487189887108
+28,Limes,Banana,0.2210180623973727
+29,Banana,Limes,0.0682417359561955
+30,Banana,Organic Avocado,0.1153248157912526
+31,Organic Avocado,Banana,0.3032349804479204
+32,Organic Baby Spinach,Banana,0.2101994115724093
+33,Banana,Organic Baby Spinach,0.1086662610694247
+34,Organic Fuji Apple,Banana,0.3745806932538203
+35,Banana,Organic Fuji Apple,0.0679375380247414
+36,Organic Strawberries,Banana,0.2084601157448839
+37,Banana,Organic Strawberries,0.1180963969445007
+38,Banana,Organic Whole Milk,0.060231190427905
+39,Organic Whole Milk,Banana,0.2205172627150105
+40,Seedless Red Grapes,Banana,0.2934992114946557
+41,Banana,Seedless Red Grapes,0.0566146150206178
+42,Strawberries,Banana,0.2948353844535605
+43,Banana,Strawberries,0.0947407557628608
+44,Yellow Onions,Banana,0.2834675872650556
+45,Banana,Yellow Onions,0.0499560602987899
+46,Limes,Large Lemon,0.2311986863711001
+47,Large Lemon,Limes,0.1906825568797399
+48,Large Lemon,Organic Avocado,0.1646803900325027
+49,Organic Avocado,Large Lemon,0.1621045147529328
+50,Large Lemon,Organic Baby Spinach,0.1517695919104369
+51,Organic Baby Spinach,Large Lemon,0.1099051977770513
+52,Limes,Organic Avocado,0.1656267104542966
+53,Organic Avocado,Limes,0.1344649840028439
+54,Organic Baby Spinach,Organic Avocado,0.1327884929715593
+55,Organic Avocado,Organic Baby Spinach,0.1805012442232492
+56,Organic Strawberries,Organic Avocado,0.0945051011276176
+57,Organic Avocado,Organic Strawberries,0.1407749733380732
+58,Organic Baby Spinach,Organic Hass Avocado,0.1334423014056881
+59,Organic Hass Avocado,Organic Baby Spinach,0.1653167017657541
+60,Organic Strawberries,Organic Baby Spinach,0.147246584332677
+61,Organic Baby Spinach,Organic Strawberries,0.1613599215429879
+62,Organic Strawberries,Organic Blueberries,0.1015452538631346
+63,Organic Blueberries,Organic Strawberries,0.2431428571428571
+64,Organic Raspberries,Organic Hass Avocado,0.1849187935034802
+65,Organic Hass Avocado,Organic Raspberries,0.1291106431232788
+66,Organic Strawberries,Organic Hass Avocado,0.1457550265497285
+67,Organic Hass Avocado,Organic Strawberries,0.1978778551757654
+68,Organic Strawberries,Organic Raspberries,0.1375812898991706
+69,Organic Raspberries,Organic Strawberries,0.2675174013921114
